@@ -29,6 +29,9 @@
       "@/feat/*": [
         "./src/components/feat/*"
       ],
+      "@/icons/*": [
+        "./src/components/icons/*"
+      ],
       "@/layout/*": [
         "./src/components/layout/*"
       ],

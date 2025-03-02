@@ -1,9 +1,10 @@
 import { type FC } from "react";
-import { Hero } from "@/pages/home";
+import { Hero, Services } from "@/pages/home";
 
 const HomePage: FC = () => (
   <>
     <Hero />
+    <Services />
   </>
 );
 
