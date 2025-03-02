@@ -1,4 +1,5 @@
 import type { FC, PropsWithChildren } from "react";
+
 import { Navbar } from "@/components/layout/navbar";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Dock } from "@/layout/dock";

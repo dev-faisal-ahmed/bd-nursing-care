@@ -15,6 +15,7 @@ import { Sheet, SheetContent, SheetDescription, SheetTitle, SheetTrigger } from 
 import type { FC } from "react";
 import Link from "next/link";
 
+// main component => composer
 const Navbar: FC = () => {
   return (
     <nav className="m-3 flex rounded-full bg-white p-3 lg:grid lg:grid-cols-3">
@@ -32,9 +33,10 @@ const Navbar: FC = () => {
   );
 };
 
+// sheet component that renders nav links in medium screen
 const MDScreenNavSheet: FC = () => (
   <Sheet>
-    <SheetTrigger className="bg-primary hidden rounded-full p-2 text-white sm:block lg:hidden">
+    <SheetTrigger className="bg-primary hidden rounded-full p-2 text-white md:block lg:hidden">
       <MenuIcon />
     </SheetTrigger>
     <SheetContent side="left" className="p-2">

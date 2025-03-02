@@ -26,8 +26,14 @@
       "@/*": [
         "./src/*"
       ],
+      "@/feat/*": [
+        "./src/components/feat/*"
+      ],
       "@/layout/*": [
         "./src/components/layout/*"
+      ],
+      "@/pages/*": [
+        "./src/components/pages/*"
       ],
       "@/shared/*": [
         "./src/components/shared/*"
