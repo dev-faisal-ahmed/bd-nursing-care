@@ -1,9 +1,9 @@
-import { Navbar } from "@/components/shared/navbar";
+import { DesktopNavbar } from "@/components/shared/navbar";
 import { FC, PropsWithChildren } from "react";
 
 const PublicLayout: FC<PropsWithChildren> = ({ children }) => (
   <>
-    <Navbar />
+    <DesktopNavbar />
     {children}
   </>
 );
