@@ -38,6 +38,8 @@ const Button: FC<TButtonProps> = ({ className, variant, size, asChild = false, .
   return <Comp data-slot="button" className={cn(buttonVariants({ variant, size, className }))} {...props} />;
 };
 
-type TButtonProps = ComponentProps<"button"> & VariantProps<typeof buttonVariants> & { asChild?: boolean };
+type TButtonProps = ComponentProps<"button"> & TButtonVariants & { asChild?: boolean };
+type TButtonVariants = VariantProps<typeof buttonVariants>;
 
 export { Button, buttonVariants };
+export type { TButtonVariants };
