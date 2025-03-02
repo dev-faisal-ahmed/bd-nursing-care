@@ -1,9 +1,9 @@
 import "./globals.css";
 
-import { FC, PropsWithChildren } from "react";
-import { cn } from "@/lib/utils";
-import { Poppins } from "next/font/google";
 import type { Metadata } from "next";
+import type { FC, PropsWithChildren } from "react";
+import { Poppins } from "next/font/google";
+import { cn } from "@/lib/utils";
 
 const font = Poppins({ weight: ["400", "500", "600", "700"] });
 
