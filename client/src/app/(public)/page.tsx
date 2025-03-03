@@ -1,5 +1,5 @@
 import { type FC } from "react";
-import { Hero, Services } from "@/pages/home";
+import { Hero, Services } from "@/page/home";
 
 const HomePage: FC = () => (
   <>

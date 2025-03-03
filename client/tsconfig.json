@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2017",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -17,42 +13,16 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
+    "plugins": [{ "name": "next" }],
     "paths": {
-      "@/*": [
-        "./src/*"
-      ],
-      "@/feat/*": [
-        "./src/components/feat/*"
-      ],
-      "@/icons/*": [
-        "./src/components/icons/*"
-      ],
-      "@/layout/*": [
-        "./src/components/layout/*"
-      ],
-      "@/pages/*": [
-        "./src/components/pages/*"
-      ],
-      "@/shared/*": [
-        "./src/components/shared/*"
-      ],
-      "@/ui/*": [
-        "./src/components/ui/*"
-      ],
+      "@/*": ["./src/*"],
+      "@/icons": ["./src/components/icons/index.ts"],
+      "@/layout/*": ["./src/components/layout/*"],
+      "@/page/*": ["./src/page/*"],
+      "@/shared/*": ["./src/components/shared/*"],
+      "@/ui/*": ["./src/components/ui/*"]
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }
