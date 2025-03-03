@@ -7,7 +7,7 @@ import { Button } from "@/ui/button";
 
 const Hero: FC = () => (
   <div className="w-full bg-gradient-to-br from-[#298CE9] from-65% to-[#1D63A5]">
-    <Container className="flex items-center gap-20">
+    <Container className="items-center gap-20 px-6 py-12 md:flex md:px-0 md:py-0">
       <div className="flex-1">
         <h1 className="text-4xl font-bold text-white">
           Welcome to Our <span className="text-secondary">Home Care</span> System
@@ -24,7 +24,7 @@ const Hero: FC = () => (
         </div>
       </div>
 
-      <div className="hover-lazy-felix flex-1">
+      <div className="hover-lazy-felix hidden flex-1 md:block">
         <Image alt="Hero" src="/images/nurse-hero-min.png" height={700} width={800} />
       </div>
     </Container>

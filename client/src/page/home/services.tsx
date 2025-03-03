@@ -15,7 +15,7 @@ import { Title } from "@/shared/title";
 import { cn } from "@/lib/utils";
 
 const Services: FC = () => (
-  <Container className="my-20">
+  <Container className="my-10 md:my-20">
     <Title type="simple" title={["Our", "Services"]} />
 
     <div className="mt-6 grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
