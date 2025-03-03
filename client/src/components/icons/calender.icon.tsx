@@ -1,7 +1,7 @@
 import { FC } from "react";
 
 const CalenderIcon: FC = () => (
-  <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <>
     <g clipPath="url(#clip0_82_358)">
       <path
         d="M128 64C128 78.76 123.003 92.3525 114.607 103.18C112.179 106.312 101.779 101.333 98.8213 103.963C94.383 107.909 97.0793 119.127 91.665 121.725C83.2925 125.747 73.9075 128 64 128C54.0925 128 44.7075 125.747 36.335 121.725C27.3125 117.395 19.465 111.012 13.3925 103.18C4.9975 92.3525 0 78.76 0 64C0 28.655 28.655 0 64 0C99.345 0 128 28.655 128 64Z"
@@ -70,7 +70,7 @@ const CalenderIcon: FC = () => (
         <rect width="128" height="128" fill="white" />
       </clipPath>
     </defs>
-  </svg>
+  </>
 );
 
 export { CalenderIcon };

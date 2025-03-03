@@ -1,7 +1,7 @@
 import { FC } from "react";
 
 const PhysiotherapyIcon: FC = () => (
-  <svg width="128" height="124" viewBox="0 0 128 124" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <>
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -177,7 +177,7 @@ const PhysiotherapyIcon: FC = () => (
       d="M120.013 118.314V112.795H114.516H100.448V118.314C100.448 121.351 97.9585 123.833 94.9287 123.833H114.494C117.531 123.833 120.013 121.351 120.013 118.314Z"
       fill="#D3CFD2"
     />
-  </svg>
+  </>
 );
 
 export { PhysiotherapyIcon };
